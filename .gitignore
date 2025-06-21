@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vs/CaseMorphExtension/CopilotIndices/17.14.786.1071/CodeChunks.db
+/.vs/CaseMorphExtension/CopilotIndices/17.14.786.1071/SemanticSymbols.db
