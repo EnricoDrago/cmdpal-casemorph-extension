@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CaseMorphExtension (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "CaseMorphExtension (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
