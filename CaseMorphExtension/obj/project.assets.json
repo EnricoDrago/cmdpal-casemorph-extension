@@ -1885,18 +1885,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rokke\\Documents\\CaseMorph\\CaseMorphExtension\\CaseMorphExtension\\CaseMorphExtension.csproj",
+      "projectUniqueName": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension(test)\\CaseMorphExtension\\CaseMorphExtension.csproj",
       "projectName": "CaseMorphExtension",
-      "projectPath": "C:\\Users\\rokke\\Documents\\CaseMorph\\CaseMorphExtension\\CaseMorphExtension\\CaseMorphExtension.csproj",
+      "projectPath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension(test)\\CaseMorphExtension\\CaseMorphExtension.csproj",
       "packagesPath": "C:\\Users\\rokke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rokke\\Documents\\CaseMorph\\CaseMorphExtension\\CaseMorphExtension\\obj\\",
+      "outputPath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension(test)\\CaseMorphExtension\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rokke\\Documents\\CaseMorph\\CaseMorphExtension\\NuGet.Config",
+        "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension(test)\\NuGet.Config",
         "C:\\Users\\rokke\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
