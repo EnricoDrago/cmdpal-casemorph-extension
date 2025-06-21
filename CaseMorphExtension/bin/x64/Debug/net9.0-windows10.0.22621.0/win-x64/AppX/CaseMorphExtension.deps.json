@@ -1,0 +1,300 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/win-x64": {
+      "CaseMorphExtension/1.0.0": {
+        "dependencies": {
+          "Microsoft.CommandPalette.Extensions": "0.2.0",
+          "Microsoft.NET.ILLink.Tasks": "9.0.6",
+          "Microsoft.Web.WebView2": "1.0.2903.40",
+          "Microsoft.Windows.CsWinRT": "2.2.0",
+          "Microsoft.WindowsAppSDK": "1.7.250401001",
+          "Shmuelie.WinRTServer": "2.1.1",
+          "System.Text.Json": "9.0.3",
+          "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "9.0.6",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.22621.57"
+        },
+        "runtime": {
+          "CaseMorphExtension.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/9.0.6": {
+        "runtime": {
+          "System.Collections.Concurrent.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Collections.Immutable.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Collections.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.ComponentModel.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.ComponentModel.TypeConverter.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.ComponentModel.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Console.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Diagnostics.StackTrace.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.IO.Compression.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.IO.MemoryMappedFiles.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Linq.Expressions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Linq.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.ObjectModel.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Private.CoreLib.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Private.Uri.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Reflection.Metadata.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Runtime.InteropServices.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.Security.Cryptography.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          },
+          "System.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "9.0.625.26613"
+          }
+        },
+        "native": {
+          "Microsoft.DiaSymReader.Native.amd64.dll": {
+            "fileVersion": "14.42.34436.0"
+          },
+          "System.IO.Compression.Native.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "clretwrc.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "clrgc.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "clrgcexp.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "clrjit.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "coreclr.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "createdump.exe": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "hostfxr.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "hostpolicy.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "mscordaccore.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "mscordaccore_amd64_amd64_9.0.625.26613.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "mscordbi.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "mscorrc.dll": {
+            "fileVersion": "9.0.625.26613"
+          },
+          "msquic.dll": {
+            "fileVersion": "2.4.8.0"
+          }
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.57": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.22621.38",
+            "fileVersion": "10.0.22621.55"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.48161"
+          }
+        }
+      },
+      "Microsoft.CommandPalette.Extensions/0.2.0": {
+        "dependencies": {
+          "Microsoft.Windows.CsWinRT": "2.2.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Microsoft.CommandPalette.Extensions.Toolkit.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/Microsoft.CommandPalette.Extensions.dll": {
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/9.0.6": {},
+      "Microsoft.Web.WebView2/1.0.2903.40": {
+        "native": {
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "fileVersion": "1.0.2903.40"
+          }
+        }
+      },
+      "Microsoft.Windows.CsWinRT/2.2.0": {},
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {},
+      "Microsoft.WindowsAppSDK/1.7.250401001": {
+        "dependencies": {
+          "Microsoft.Web.WebView2": "1.0.2903.40",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "native": {
+          "runtimes/win-x64/native/Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll": {
+            "fileVersion": "1.7.0.0"
+          },
+          "runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Shmuelie.WinRTServer/2.1.1": {
+        "runtime": {
+          "lib/net8.0-windows10.0.22000/Shmuelie.WinRTServer.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "System.Text.Json/9.0.3": {}
+    }
+  },
+  "libraries": {
+    "CaseMorphExtension/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/9.0.6": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.57": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CommandPalette.Extensions/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xSI1FkItLioQUOg0O5+1nEtfmTMFuOsM26GyhGqoniGnZNHb4oI0+uzsOvnSSRHI/C5VnCPXxwJlkzoXVVASUQ==",
+      "path": "microsoft.commandpalette.extensions/0.2.0",
+      "hashPath": "microsoft.commandpalette.extensions.0.2.0.nupkg.sha512"
+    },
+    "Microsoft.NET.ILLink.Tasks/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TXy3SbJzGXQbxxIxCjdrp8bwEyTDImyYNpTpd6v7P3JL2Y7dno8EYG7dPezfYTa5SoWKdhbH9cbnwHHs3BR5gA==",
+      "path": "microsoft.net.illink.tasks/9.0.6",
+      "hashPath": "microsoft.net.illink.tasks.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.2903.40": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-THrzYAnJgE3+cNH+9Epr44XjoZoRELdVpXlWGPs6K9C9G6TqyDfVCeVAR/Er8ljLitIUX5gaSkPsy9wRhD1sgQ==",
+      "path": "microsoft.web.webview2/1.0.2903.40",
+      "hashPath": "microsoft.web.webview2.1.0.2903.40.nupkg.sha512"
+    },
+    "Microsoft.Windows.CsWinRT/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R8MDVawukHrKgYCFgYaoLfbAna/FrImEFRxDK9k8ITbrXv3KLE5uN6tRqrNV83H4MFdqJ/uiA/hg1cSsXkl0vw==",
+      "path": "microsoft.windows.cswinrt/2.2.0",
+      "hashPath": "microsoft.windows.cswinrt.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA==",
+      "path": "microsoft.windows.sdk.buildtools/10.0.22621.756",
+      "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK/1.7.250401001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kPsJ2LZoo3Xs/6FtIWMZRGnQ2ZMx9zDa0ZpqRGz1qwZr0gwwlXZJTmngaA1Ym2AHmIa05NtX2jEE2He8CzfhTg==",
+      "path": "microsoft.windowsappsdk/1.7.250401001",
+      "hashPath": "microsoft.windowsappsdk.1.7.250401001.nupkg.sha512"
+    },
+    "Shmuelie.WinRTServer/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MZGMoafSc2S0qHlPYz5DmueRRf4jqxwjVz4GMnVMlWxcTtZ0WZSXgXm05Xu6J81WeAtPa3aRffw6OkYk6HqL4Q==",
+      "path": "shmuelie.winrtserver/2.1.1",
+      "hashPath": "shmuelie.winrtserver.2.1.1.nupkg.sha512"
+    },
+    "System.Text.Json/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r2JRkLjsYrq5Dpo7+y3Wa73OfirZPdVhxiTJWwZ+oJM7FOAe0LkM3GlH+pgkNRdd1G1kwUbmRCdmh4uoaWwu1g==",
+      "path": "system.text.json/9.0.3",
+      "hashPath": "system.text.json.9.0.3.nupkg.sha512"
+    }
+  },
+  "runtimes": {
+    "win-x64": [
+      "win",
+      "any",
+      "base"
+    ]
+  }
+}
