@@ -16,16 +16,8 @@ public partial class CaseMorphExtensionCommandsProvider : CommandProvider
     {
         DisplayName = "Case Morph";
         Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
-        _commands = [
-            new CommandItem(new CaseMorphExtensionPage()) 
-            { 
-                Title = DisplayName 
-            }
-        ];
+        _commands = [new CommandItem(new CaseMorphExtensionPage()) { Title = DisplayName }];
     }
 
-    public override ICommandItem[] TopLevelCommands()
-    {
-        return _commands;
-    }
+    public override ICommandItem[] TopLevelCommands() => _commands;
 }

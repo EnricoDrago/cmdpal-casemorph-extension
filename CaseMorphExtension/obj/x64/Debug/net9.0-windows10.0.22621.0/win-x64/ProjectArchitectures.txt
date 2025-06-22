@@ -1,1 +1,1 @@
-C:\Users\rokke\Documents\CaseMorph\CaseMorphExtension\CaseMorphExtension\CaseMorphExtension.csproj;x64
+C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\CaseMorphExtension.csproj;x64

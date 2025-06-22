@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kTem9PdQ+wY=",
+  "dgSpecHash": "5cPqoKAsD1w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension(test)\\CaseMorphExtension\\CaseMorphExtension.csproj",
+  "projectFilePath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension\\CaseMorphExtension\\CaseMorphExtension.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.commandpalette.extensions\\0.2.0\\microsoft.commandpalette.extensions.0.2.0.nupkg.sha512",
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.6\\microsoft.net.illink.tasks.9.0.6.nupkg.sha512",

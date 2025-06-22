@@ -5,8 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace CaseMorphExtension;
 
@@ -14,7 +12,6 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
 {
     private readonly List<ListItem> _items = [];
     private readonly IReadOnlyList<MethodInfo> _transformationMethods;
-    public static bool LoadClipboardContent = true;
 
     public CaseMorphExtensionPage()
     {
@@ -25,24 +22,6 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
 
         _transformationMethods = GetTransformationMethods();
     }
-
-    public override IListItem[] GetItems()
-    {
-        if (LoadClipboardContent && string.IsNullOrEmpty(SearchText))
-        {
-            InitializeItems(ClipboardHelper.GetText());
-            LoadClipboardContent = false;
-            
-            _ = Task.Run(async () =>
-            {
-                await Task.Delay(2000);
-                Interlocked.Exchange(ref LoadClipboardContent, true);
-            });
-        }
-
-        return _items.ToArray();
-    }
-
     private static IReadOnlyList<MethodInfo> GetTransformationMethods()
     {
         var methods = new List<MethodInfo>();
@@ -51,34 +30,24 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
         return methods.AsReadOnly();
     }
 
-    private void InitializeItems(string currentSearchText)
+    public override IListItem[] GetItems()
     {
-        _items.Clear();
+        string currentSearchText = string.IsNullOrEmpty(SearchText) ? ClipboardHelper.GetText() : SearchText;
 
+        _items.Clear();
         foreach (var method in _transformationMethods)
         {
-            var displayNameAttribute = method.GetCustomAttribute<TransformationDisplayNameAttribute>();
-            string displayName = displayNameAttribute?.DisplayName ?? method.Name;
-            string? transformedText = string.IsNullOrEmpty(currentSearchText) ? "No input available yet" : (string)method.Invoke(null, new object[] { currentSearchText });
-
+            string transformedText = (string)method.Invoke(null, new object[] { currentSearchText });
             _items.Add(new ListItem(new CopyTextCommand(transformedText))
             {
                 Title = transformedText,
-                Subtitle = displayName,
+                Subtitle = method.GetCustomAttribute<TransformationDisplayNameAttribute>().DisplayName,
                 Icon = IconHelpers.FromRelativePath("Assets\\Logo.png"),
             });
         }
+
+        return _items.ToArray();
     }
 
-    public override void UpdateSearchText(string oldSearch, string newSearch)
-    {
-        if (newSearch != oldSearch)
-        {
-            string textToUse = string.IsNullOrEmpty(newSearch) ? ClipboardHelper.GetText() : newSearch;
-            LoadClipboardContent = string.IsNullOrEmpty(newSearch) ? true : false;
-
-            InitializeItems(textToUse);
-            RaiseItemsChanged(_items.Count);
-        }
-    }
+    public override void UpdateSearchText(string oldSearch, string newSearch) => RaiseItemsChanged(_items.Count);
 }
