@@ -1,2 +1,2 @@
 # cmdpal-casemorph-extension
-A PowerToys Command Palette extension to convert copied text to a specific format
+A PowerToys Command Palette extension that converts copied text to multiple copyable formats
