@@ -30,17 +30,17 @@
     <AppXManifest Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-06-22T13:22:06.003</Modified>
+      <Modified>2025-06-28T08:00:32.597</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-06-22T13:03:42.164</Modified>
+      <Modified>2025-06-22T17:54:59.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\CaseMorphExtension.runtimeconfig.json">
       <PackagePath>CaseMorphExtension.runtimeconfig.json</PackagePath>
-      <Modified>2025-06-22T13:03:41.974</Modified>
+      <Modified>2025-06-22T17:54:59.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.commandpalette.extensions\0.2.0\winmd\Microsoft.CommandPalette.Extensions.winmd">
       <PackagePath>Microsoft.CommandPalette.Extensions.winmd</PackagePath>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\apphost.exe">
       <PackagePath>CaseMorphExtension.exe</PackagePath>
-      <Modified>2025-06-22T13:21:55.373</Modified>
+      <Modified>2025-06-28T08:00:10.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.netcore.app.runtime.win-x64\9.0.6\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
       <PackagePath>Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
@@ -110,6 +110,214 @@
       <PackagePath>msquic.dll</PackagePath>
       <Modified>2025-03-03T22:23:18.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\cs\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>cs\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\cs\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>cs\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\cs\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>cs\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\cs\System.Windows.Forms.resources.dll">
+      <PackagePath>cs\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\de\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>de\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\de\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>de\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\de\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>de\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\de\System.Windows.Forms.resources.dll">
+      <PackagePath>de\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\es\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>es\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\es\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>es\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\es\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>es\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\es\System.Windows.Forms.resources.dll">
+      <PackagePath>es\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\fr\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>fr\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\fr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>fr\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\fr\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>fr\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\fr\System.Windows.Forms.resources.dll">
+      <PackagePath>fr\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\it\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>it\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\it\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>it\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\it\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>it\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\it\System.Windows.Forms.resources.dll">
+      <PackagePath>it\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ja\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>ja\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ja\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ja\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ja\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>ja\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ja\System.Windows.Forms.resources.dll">
+      <PackagePath>ja\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ko\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>ko\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ko\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ko\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ko\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>ko\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ko\System.Windows.Forms.resources.dll">
+      <PackagePath>ko\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pl\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>pl\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pl\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>pl\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pl\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>pl\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pl\System.Windows.Forms.resources.dll">
+      <PackagePath>pl\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pt-BR\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>pt-BR\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pt-BR\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pt-BR\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\pt-BR\System.Windows.Forms.resources.dll">
+      <PackagePath>pt-BR\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ru\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>ru\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ru\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>ru\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ru\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>ru\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\ru\System.Windows.Forms.resources.dll">
+      <PackagePath>ru\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\tr\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>tr\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\tr\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>tr\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\tr\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>tr\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\tr\System.Windows.Forms.resources.dll">
+      <PackagePath>tr\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hans\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hans\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hans\System.Windows.Forms.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.VisualBasic.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hant\System.Windows.Forms.Design.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Forms.Design.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hant\System.Windows.Forms.Primitives.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Forms.Primitives.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.windowsdesktop.app.runtime.win-x64\9.0.6\runtimes\win-x64\lib\net9.0\zh-Hant\System.Windows.Forms.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Forms.resources.dll</PackagePath>
+      <Modified>2025-05-17T00:55:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.commandpalette.extensions\0.2.0\runtimes\win-x64\native\Microsoft.CommandPalette.Extensions.dll">
       <PackagePath>Microsoft.CommandPalette.Extensions.dll</PackagePath>
       <Modified>2025-05-07T18:24:30.000</Modified>
@@ -130,109 +338,245 @@
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
       <Modified>2024-11-10T08:58:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\linked\System.ComponentModel.dll">
-      <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2025-06-22T13:22:02.052</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\linked\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2025-06-22T13:22:02.084</Modified>
+      <Modified>2025-06-28T08:00:20.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\linked\Accessibility.dll">
+      <PackagePath>Accessibility.dll</PackagePath>
+      <Modified>2025-06-28T08:00:21.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\linked\System.Drawing.dll">
+      <PackagePath>System.Drawing.dll</PackagePath>
+      <Modified>2025-06-28T08:00:21.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Microsoft.CommandPalette.Extensions.Toolkit.dll">
       <PackagePath>Microsoft.CommandPalette.Extensions.Toolkit.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.352</Modified>
+      <Modified>2025-06-28T08:00:24.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Shmuelie.WinRTServer.dll">
       <PackagePath>Shmuelie.WinRTServer.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.448</Modified>
+      <Modified>2025-06-28T08:00:24.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\CaseMorphExtension.dll">
       <PackagePath>CaseMorphExtension.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.511</Modified>
+      <Modified>2025-06-28T08:00:24.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+      <Modified>2025-06-28T08:00:24.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.581</Modified>
+      <Modified>2025-06-28T08:00:25.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.622</Modified>
+      <Modified>2025-06-28T08:00:25.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2025-06-28T08:00:25.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2025-06-28T08:00:25.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.686</Modified>
+      <Modified>2025-06-28T08:00:25.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2025-06-28T08:00:25.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ComponentModel.Primitives.dll">
       <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.734</Modified>
+      <Modified>2025-06-28T08:00:25.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ComponentModel.TypeConverter.dll">
       <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.781</Modified>
+      <Modified>2025-06-28T08:00:25.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2025-06-28T08:00:25.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Console.dll">
       <PackagePath>System.Console.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.847</Modified>
+      <Modified>2025-06-28T08:00:25.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2025-06-22T13:22:03.946</Modified>
+      <Modified>2025-06-28T08:00:25.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>System.Diagnostics.FileVersionInfo.dll</PackagePath>
+      <Modified>2025-06-28T08:00:25.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2025-06-22T13:22:04.003</Modified>
+      <Modified>2025-06-28T08:00:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Drawing.Primitives.dll">
+      <PackagePath>System.Drawing.Primitives.dll</PackagePath>
+      <Modified>2025-06-28T08:00:26.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Formats.Asn1.dll">
+      <PackagePath>System.Formats.Asn1.dll</PackagePath>
+      <Modified>2025-06-28T08:00:26.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.IO.Compression.Brotli.dll">
+      <PackagePath>System.IO.Compression.Brotli.dll</PackagePath>
+      <Modified>2025-06-28T08:00:26.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2025-06-22T13:22:04.051</Modified>
+      <Modified>2025-06-28T08:00:26.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.IO.MemoryMappedFiles.dll">
       <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
-      <Modified>2025-06-22T13:22:04.131</Modified>
+      <Modified>2025-06-28T08:00:26.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2025-06-22T13:22:04.195</Modified>
+      <Modified>2025-06-28T08:00:26.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2025-06-22T13:22:04.259</Modified>
+      <Modified>2025-06-28T08:00:26.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2025-06-28T08:00:26.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2025-06-28T08:00:26.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2025-06-28T08:00:26.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2025-06-28T08:00:27.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.Quic.dll">
+      <PackagePath>System.Net.Quic.dll</PackagePath>
+      <Modified>2025-06-28T08:00:27.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2025-06-28T08:00:27.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.Security.dll">
+      <PackagePath>System.Net.Security.dll</PackagePath>
+      <Modified>2025-06-28T08:00:27.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2025-06-28T08:00:27.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2025-06-28T08:00:27.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2025-06-22T13:22:04.323</Modified>
+      <Modified>2025-06-28T08:00:27.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Private.CoreLib.dll">
       <PackagePath>System.Private.CoreLib.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.306</Modified>
+      <Modified>2025-06-28T08:00:29.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.385</Modified>
+      <Modified>2025-06-28T08:00:29.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Private.Xml.dll">
+      <PackagePath>System.Private.Xml.dll</PackagePath>
+      <Modified>2025-06-28T08:00:29.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.484</Modified>
+      <Modified>2025-06-28T08:00:29.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.545</Modified>
+      <Modified>2025-06-28T08:00:29.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2025-06-28T08:00:29.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
+      <Modified>2025-06-28T08:00:29.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2025-06-28T08:00:29.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Security.Cryptography.dll">
       <PackagePath>System.Security.Cryptography.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.608</Modified>
+      <Modified>2025-06-28T08:00:30.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Security.Principal.Windows.dll">
+      <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Threading.Channels.dll">
+      <PackagePath>System.Threading.Channels.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Formats.Nrbf.dll">
+      <PackagePath>System.Formats.Nrbf.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Private.Windows.Core.dll">
+      <PackagePath>System.Private.Windows.Core.dll</PackagePath>
+      <Modified>2025-06-28T08:00:30.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Windows.Forms.Primitives.dll">
+      <PackagePath>System.Windows.Forms.Primitives.dll</PackagePath>
+      <Modified>2025-06-28T08:00:31.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Windows.Forms.dll">
+      <PackagePath>System.Windows.Forms.dll</PackagePath>
+      <Modified>2025-06-28T08:00:31.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.718</Modified>
+      <Modified>2025-06-28T08:00:32.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
-      <Modified>2025-06-22T13:22:05.955</Modified>
+      <Modified>2025-06-28T08:00:32.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\CaseMorphExtension.deps.json">
       <PackagePath>CaseMorphExtension.deps.json</PackagePath>
-      <Modified>2025-06-22T13:03:53.212</Modified>
+      <Modified>2025-06-22T17:55:20.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

@@ -3,6 +3,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --outdir
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\IIDOptimizer\
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\Accessibility.dll
+--refs 
  C:\Users\rokke\.nuget\packages\microsoft.commandpalette.extensions\0.2.0\lib\net8.0-windows10.0.19041.0\Microsoft.CommandPalette.Extensions.Toolkit.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\Microsoft.CSharp.dll
@@ -13,13 +15,19 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\Microsoft.VisualBasic.Core.dll
 --refs 
- C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\Microsoft.VisualBasic.dll
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\Microsoft.VisualBasic.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\Microsoft.VisualBasic.Forms.dll
 --refs 
  C:\Users\rokke\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\Microsoft.Win32.Primitives.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\Microsoft.Win32.Registry.AccessControl.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\Microsoft.Win32.Registry.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\Microsoft.Win32.SystemEvents.dll
 --refs 
  C:\Users\rokke\.nuget\packages\microsoft.windowsappsdk\1.7.250401001\lib\net6.0-windows10.0.22621.0\Microsoft.Windows.ApplicationModel.Background.Projection.dll
 --refs 
@@ -69,6 +77,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Buffers.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.CodeDom.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Collections.Concurrent.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Collections.dll
@@ -91,6 +101,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.ComponentModel.TypeConverter.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Configuration.ConfigurationManager.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Configuration.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Console.dll
@@ -103,13 +115,19 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Data.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Design.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.Contracts.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.Debug.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.DiagnosticSource.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.EventLog.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.FileVersionInfo.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.PerformanceCounter.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.Process.dll
 --refs 
@@ -123,15 +141,23 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Diagnostics.Tracing.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.DirectoryServices.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.dll
 --refs 
- C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Drawing.dll
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Drawing.Common.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Drawing.Design.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Drawing.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Drawing.Primitives.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Dynamic.Runtime.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Formats.Asn1.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Formats.Nrbf.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Formats.Tar.dll
 --refs 
@@ -164,6 +190,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.IO.IsolatedStorage.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.IO.MemoryMappedFiles.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.IO.Packaging.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.IO.Pipelines.dll
 --refs 
@@ -227,6 +255,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.ObjectModel.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Private.Windows.Core.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Reflection.DispatchProxy.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Reflection.dll
@@ -244,6 +274,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Reflection.Primitives.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Reflection.TypeExtensions.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Resources.Extensions.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Resources.Reader.dll
 --refs 
@@ -299,11 +331,19 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Security.Cryptography.OpenSsl.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Security.Cryptography.Pkcs.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Security.Cryptography.Primitives.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Security.Cryptography.ProtectedData.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Security.Cryptography.X509Certificates.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Security.Cryptography.Xml.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Security.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Security.Permissions.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Security.Principal.dll
 --refs 
@@ -326,6 +366,8 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Text.Json.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Text.RegularExpressions.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Threading.AccessControl.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Threading.Channels.dll
 --refs 
@@ -359,6 +401,16 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Windows.dll
 --refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Windows.Extensions.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Windows.Forms.Design.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Windows.Forms.Design.Editors.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Windows.Forms.dll
+--refs 
+ C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.6\ref\net9.0\System.Windows.Forms.Primitives.dll
+--refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Xml.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Xml.Linq.dll
@@ -378,5 +430,7 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\System.Xml.XPath.XDocument.dll
 --refs 
  C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.6\ref\net9.0\WindowsBase.dll
+--refs 
+ C:\Users\rokke\.nuget\packages\inputsimulator\1.0.4\lib\net20\WindowsInput.dll
 --refs 
  C:\Users\rokke\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22621.57\lib\net8.0\WinRT.Runtime.dll

@@ -5,6 +5,10 @@
       {
         "name": "Microsoft.NETCore.App",
         "version": "9.0.6"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "9.0.6"
       }
     ],
     "configProperties": {
@@ -19,6 +23,7 @@
       "System.ComponentModel.Design.IDesignerHost.IsSupported": false,
       "System.ComponentModel.TypeConverter.EnableUnsafeBinaryFormatterInDesigntimeLicenseContextSerialization": false,
       "System.ComponentModel.TypeDescriptor.IsComObjectDescriptorSupported": false,
+      "System.Drawing.Design.UITypeEditor.IsSupported": false,
       "System.Resources.ResourceManager.AllowCustomResourceTypes": false,
       "System.Resources.UseSystemResourceKeys": false,
       "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeSupported": true,
@@ -31,6 +36,13 @@
       "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
       "System.Text.Json.JsonSerializer.IsReflectionEnabledByDefault": false,
       "System.Threading.Thread.EnableAutoreleasePool": false,
+      "System.Windows.Forms.ActiveXImpl.IsSupported": false,
+      "System.Windows.Forms.Binding.IsSupported": false,
+      "System.Windows.Forms.Control.AreDesignTimeFeaturesSupported": false,
+      "System.Windows.Forms.Control.UseComponentModelRegisteredTypes": true,
+      "System.Windows.Forms.ImageIndexConverter.IsSupported": false,
+      "System.Windows.Forms.MdiWindowDialog.IsSupported": false,
+      "System.Windows.Forms.Primitives.TypeConverterHelper.UseComponentModelRegisteredTypes": true,
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false
     }
   }

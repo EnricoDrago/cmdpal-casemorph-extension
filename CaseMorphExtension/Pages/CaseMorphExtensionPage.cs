@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Windows.System;
 
 namespace CaseMorphExtension;
 
@@ -15,19 +16,12 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
 
     public CaseMorphExtensionPage()
     {
+        Name = "Case Morph";
         Title = "Case Morph";
         PlaceholderText = "Type your text here...";
-        Name = "Case Morph";
         Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
 
-        _transformationMethods = GetTransformationMethods();
-    }
-    private static IReadOnlyList<MethodInfo> GetTransformationMethods()
-    {
-        var methods = new List<MethodInfo>();
-        Type transformerType = typeof(TextTransformer);
-        methods = transformerType.GetMethods(BindingFlags.Public | BindingFlags.Static).ToList();
-        return methods.AsReadOnly();
+        _transformationMethods = typeof(TextTransformer).GetMethods(BindingFlags.Public | BindingFlags.Static).ToList().AsReadOnly();
     }
 
     public override IListItem[] GetItems()
@@ -35,6 +29,7 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
         string currentSearchText = string.IsNullOrEmpty(SearchText) ? ClipboardHelper.GetText() : SearchText;
 
         _items.Clear();
+
         foreach (var method in _transformationMethods)
         {
             string transformedText = (string)method.Invoke(null, new object[] { currentSearchText });
@@ -43,9 +38,14 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
                 Title = transformedText,
                 Subtitle = method.GetCustomAttribute<TransformationDisplayNameAttribute>().DisplayName,
                 Icon = IconHelpers.FromRelativePath("Assets\\Logo.png"),
+
+                MoreCommands = [
+                new CommandContextItem(new TypeCommand(transformedText))
+                {
+                    RequestedShortcut = KeyChordHelpers.FromModifiers(ctrl: true, vkey: VirtualKey.O)
+                }],
             });
         }
-
         return _items.ToArray();
     }
 

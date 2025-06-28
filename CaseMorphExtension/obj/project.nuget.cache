@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5cPqoKAsD1w=",
+  "dgSpecHash": "E3c1u190Fkk=",
   "success": true,
   "projectFilePath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension\\CaseMorphExtension\\CaseMorphExtension.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rokke\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.commandpalette.extensions\\0.2.0\\microsoft.commandpalette.extensions.0.2.0.nupkg.sha512",
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.6\\microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
@@ -21,5 +22,18 @@
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\9.0.6\\microsoft.aspnetcore.app.runtime.win-arm64.9.0.6.nupkg.sha512",
     "C:\\Users\\rokke\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.6\\microsoft.netcore.app.runtime.win-x64.9.0.6.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows10.0.22621'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension\\CaseMorphExtension\\CaseMorphExtension.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\rokke\\Source\\Repos\\cmdpal-casemorph-extension\\CaseMorphExtension\\CaseMorphExtension.csproj",
+      "libraryId": "InputSimulator",
+      "targetGraphs": [
+        "net9.0-windows10.0.22621"
+      ]
+    }
+  ]
 }

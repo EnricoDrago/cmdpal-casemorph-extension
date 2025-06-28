@@ -51,6 +51,11 @@
         "net9.0-windows10.0.22621": {
           "targetAlias": "net9.0-windows10.0.22621.0",
           "dependencies": {
+            "InputSimulator": {
+              "target": "Package",
+              "version": "[1.0.4, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.CommandPalette.Extensions": {
               "target": "Package",
               "version": "[0.2.0, )",
@@ -152,6 +157,9 @@
             },
             "Microsoft.Windows.SDK.NET.Ref.Windows": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"

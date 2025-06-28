@@ -16,7 +16,11 @@ public partial class CaseMorphExtensionCommandsProvider : CommandProvider
     {
         DisplayName = "Case Morph";
         Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
-        _commands = [new CommandItem(new CaseMorphExtensionPage()) { Title = DisplayName }];
+        _commands = [new CommandItem(new CaseMorphExtensionPage()) 
+        { 
+            Title = DisplayName, 
+            Subtitle = "Transform text to different formats!"
+        }];
     }
 
     public override ICommandItem[] TopLevelCommands() => _commands;
