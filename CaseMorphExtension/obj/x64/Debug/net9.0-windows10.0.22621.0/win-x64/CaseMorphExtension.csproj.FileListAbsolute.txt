@@ -492,7 +492,6 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x6
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\hostfxr.dll
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\hostpolicy.dll
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\mscordaccore.dll
-C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\mscordaccore_amd64_amd64_9.0.625.26613.dll
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\mscordbi.dll
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\mscorrc.dll
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\msquic.dll
@@ -581,3 +580,4 @@ C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x6
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\CaseMorphExtension.genpublishdeps.cache
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\ProjectArchitectures.txt
 C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\.winmd_cache\$Microsoft.CommandPalette.Extensions.winmd_638822388320000000.json
+C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\mscordaccore_amd64_amd64_9.0.825.36511.dll

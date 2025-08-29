@@ -45,7 +45,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.6": {
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -253,7 +253,7 @@
           }
         }
       },
-      "System.Text.Json/9.0.3": {
+      "System.Text.Json/9.0.8": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Text.Json.dll": {
@@ -307,7 +307,7 @@
           "build/Microsoft.CommandPalette.Extensions.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.6": {
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -474,7 +474,7 @@
           }
         }
       },
-      "System.Text.Json/9.0.3": {
+      "System.Text.Json/9.0.8": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Text.Json.dll": {
@@ -528,7 +528,7 @@
           "build/Microsoft.CommandPalette.Extensions.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.6": {
+      "Microsoft.NET.ILLink.Tasks/9.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -695,7 +695,7 @@
           }
         }
       },
-      "System.Text.Json/9.0.3": {
+      "System.Text.Json/9.0.8": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Text.Json.dll": {
@@ -746,10 +746,10 @@
         "winmd/Microsoft.CommandPalette.Extensions.winmd"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.6": {
-      "sha512": "TXy3SbJzGXQbxxIxCjdrp8bwEyTDImyYNpTpd6v7P3JL2Y7dno8EYG7dPezfYTa5SoWKdhbH9cbnwHHs3BR5gA==",
+    "Microsoft.NET.ILLink.Tasks/9.0.8": {
+      "sha512": "rd1CbIsMtVPtZNTIVD6Xydue//klYOOQIDpRgu3BHtv17AlpRs74/6QFbcYgMm/jL+naVU2T3OFLxVSLV5lQLQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.6",
+      "path": "microsoft.net.illink.tasks/9.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -763,7 +763,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1847,10 +1847,10 @@
         "shmuelie.winrtserver.nuspec"
       ]
     },
-    "System.Text.Json/9.0.3": {
-      "sha512": "r2JRkLjsYrq5Dpo7+y3Wa73OfirZPdVhxiTJWwZ+oJM7FOAe0LkM3GlH+pgkNRdd1G1kwUbmRCdmh4uoaWwu1g==",
+    "System.Text.Json/9.0.8": {
+      "sha512": "mIQir9jBqk0V7X0Nw5hzPJZC8DuGdf+2DS3jAVsr6rq5+/VyH5rza0XGcONJUWBrZ+G6BCwNyjWYd9lncBu48A==",
       "type": "package",
-      "path": "system.text.json/9.0.3",
+      "path": "system.text.json/9.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1913,7 +1913,7 @@
         "lib/net9.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.9.0.3.nupkg.sha512",
+        "system.text.json.9.0.8.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1923,12 +1923,12 @@
     "net9.0-windows10.0.22621": [
       "InputSimulator >= 1.0.4",
       "Microsoft.CommandPalette.Extensions >= 0.2.0",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.6",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.8",
       "Microsoft.Web.WebView2 >= 1.0.2903.40",
       "Microsoft.Windows.CsWinRT >= 2.2.0",
       "Microsoft.WindowsAppSDK >= 1.7.250401001",
       "Shmuelie.WinRTServer >= 2.1.1",
-      "System.Text.Json >= 9.0.3"
+      "System.Text.Json >= 9.0.8"
     ]
   },
   "packageFolders": {
@@ -1995,7 +1995,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.6, )",
+            "version": "[9.0.8, )",
             "autoReferenced": true
           },
           "Microsoft.Web.WebView2": {
@@ -2020,7 +2020,7 @@
           },
           "System.Text.Json": {
             "target": "Package",
-            "version": "[9.0.3, )",
+            "version": "[9.0.8, )",
             "versionCentrallyManaged": true
           }
         },
@@ -2035,7 +2035,7 @@
           "Microsoft.WindowsAppSDK": "1.7.250401001",
           "Shmuelie.WinRTServer": "2.1.1",
           "StyleCop.Analyzers": "1.2.0-beta.556",
-          "System.Text.Json": "9.0.3"
+          "System.Text.Json": "9.0.8"
         },
         "imports": [
           "net461",
@@ -2051,23 +2051,23 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -2075,11 +2075,11 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[9.0.6, 9.0.6]"
+            "version": "[9.0.8, 9.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -2093,7 +2093,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

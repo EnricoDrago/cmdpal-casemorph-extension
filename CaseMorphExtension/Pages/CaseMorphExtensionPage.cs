@@ -12,38 +12,54 @@ namespace CaseMorphExtension;
 internal sealed partial class CaseMorphExtensionPage : DynamicListPage
 {
     private readonly List<ListItem> _items = [];
-    private readonly IReadOnlyList<MethodInfo> _transformationMethods;
+    private readonly SettingsManager _settingsManager;
+    private readonly Dictionary<string, MethodInfo> _methodsByName;
 
-    public CaseMorphExtensionPage()
+    public CaseMorphExtensionPage(SettingsManager settingsManager)
     {
         Name = "Case Morph";
         Title = "Case Morph";
         PlaceholderText = "Type your text here...";
         Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
-
-        _transformationMethods = typeof(TextTransformer).GetMethods(BindingFlags.Public | BindingFlags.Static).ToList().AsReadOnly();
+        
+        _settingsManager = settingsManager;
+        _methodsByName = typeof(TextTransformer)
+            .GetMethods(BindingFlags.Public | BindingFlags.Static)
+            .Select(m => (method: m, attr: m.GetCustomAttribute<TransformationDisplayNameAttribute>()!))
+            .ToDictionary(t => t.attr.DisplayName, t => t.method);
     }
 
     public override IListItem[] GetItems()
     {
         string currentSearchText = string.IsNullOrEmpty(SearchText) ? ClipboardHelper.GetText() : SearchText;
-
         _items.Clear();
 
-        foreach (var method in _transformationMethods)
+        foreach (var displayName in _settingsManager.GetOrderedEnabledTransformations())
         {
-            string transformedText = (string)method.Invoke(null, new object[] { currentSearchText });
-            _items.Add(new ListItem(new CopyTextCommand(transformedText))
+            var attr = _methodsByName[displayName].GetCustomAttribute<TransformationDisplayNameAttribute>()!;
+            string? transformedText = _methodsByName[attr.DisplayName].Invoke(null, [currentSearchText]) as string;
+            transformedText = string.IsNullOrWhiteSpace(transformedText) ? " " : transformedText;
+            ICommand primary = _settingsManager.DefaultOutputCommand == "copy" ? new CopyTextCommand(transformedText) : new TypeCommand(transformedText);
+            ICommand secondary = _settingsManager.DefaultOutputCommand == "type" ? new CopyTextCommand(transformedText) : new TypeCommand(transformedText);
+
+            _items.Add(new ListItem(primary)
             {
                 Title = transformedText,
-                Subtitle = method.GetCustomAttribute<TransformationDisplayNameAttribute>().DisplayName,
-                Icon = IconHelpers.FromRelativePath("Assets\\Logo.png"),
+                Subtitle = attr.DisplayName,
+                Icon = new IconInfo(attr.Glyph),
 
                 MoreCommands = [
-                new CommandContextItem(new TypeCommand(transformedText))
-                {
-                    RequestedShortcut = KeyChordHelpers.FromModifiers(ctrl: true, vkey: VirtualKey.O)
-                }],
+                    new CommandContextItem(secondary),
+                    new CommandContextItem(new AnonymousCommand(() => {
+                        _settingsManager._toggles[attr.DisplayName].Value = false;
+                        _settingsManager.SyncOrderSettingWithEnabledToggles();
+                        _settingsManager.SaveSettings();
+                    }){
+                        Name = $"Disable {attr.DisplayName}",
+                        Icon = new IconInfo("\uE711"),
+                    }),
+                    new CommandContextItem(_settingsManager.Settings.SettingsPage)
+                ],
             });
         }
         return _items.ToArray();

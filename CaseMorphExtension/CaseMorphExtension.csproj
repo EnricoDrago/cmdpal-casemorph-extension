@@ -38,8 +38,11 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
+    <!--
+	<PackageReference Include="InputSimulatorPlus" />
+    -->
     <PackageReference Include="InputSimulator" />
-    <PackageReference Include="Microsoft.CommandPalette.Extensions" />
+	<PackageReference Include="Microsoft.CommandPalette.Extensions" />
     <PackageReference Include="Microsoft.Windows.CsWinRT" />
     <PackageReference Include="Microsoft.WindowsAppSDK" />
     <PackageReference Include="Microsoft.Web.WebView2" />

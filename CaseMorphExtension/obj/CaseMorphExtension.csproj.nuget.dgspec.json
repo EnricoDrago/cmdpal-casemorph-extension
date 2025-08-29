@@ -64,7 +64,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             },
             "Microsoft.Web.WebView2": {
@@ -89,7 +89,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[9.0.3, )",
+              "version": "[9.0.8, )",
               "versionCentrallyManaged": true
             }
           },
@@ -104,7 +104,7 @@
             "Microsoft.WindowsAppSDK": "1.7.250401001",
             "Shmuelie.WinRTServer": "2.1.1",
             "StyleCop.Analyzers": "1.2.0-beta.556",
-            "System.Text.Json": "9.0.3"
+            "System.Text.Json": "9.0.8"
           },
           "imports": [
             "net461",
@@ -120,23 +120,23 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -144,11 +144,11 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.8, 9.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -162,7 +162,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

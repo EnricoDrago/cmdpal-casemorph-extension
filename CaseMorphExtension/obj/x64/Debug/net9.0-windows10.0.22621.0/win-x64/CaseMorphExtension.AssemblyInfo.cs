@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaseMorphExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53a5a7e8a1bfd6a1cc50a088085afb16fcf1bcfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31426e0796d636f5a1649ee166f75c71effb250a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaseMorphExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaseMorphExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

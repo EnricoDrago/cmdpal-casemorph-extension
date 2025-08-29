@@ -10,16 +10,20 @@ namespace CaseMorphExtension;
 
 public partial class CaseMorphExtensionCommandsProvider : CommandProvider
 {
+    private static SettingsManager settings = new();
     private readonly ICommandItem[] _commands;
 
     public CaseMorphExtensionCommandsProvider()
     {
         DisplayName = "Case Morph";
         Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
-        _commands = [new CommandItem(new CaseMorphExtensionPage()) 
-        { 
-            Title = DisplayName, 
-            Subtitle = "Transform text to different formats!"
+        Settings = settings.Settings;
+
+        _commands = [new CommandItem(new CaseMorphExtensionPage(settings))
+        {
+            Title = DisplayName,
+            Subtitle = "Transform text to different formats!",
+            MoreCommands = [new CommandContextItem(settings.Settings.SettingsPage)],
         }];
     }
 

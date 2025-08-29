@@ -9,16 +9,25 @@ namespace CaseMorphExtension.Core;
 public class TransformationDisplayNameAttribute : Attribute
 {
     public string DisplayName { get; }
+    public string Glyph { get; }
 
-    public TransformationDisplayNameAttribute(string displayName)
+    public TransformationDisplayNameAttribute(string displayName, string glyph = "\uE8E9")
     {
         DisplayName = displayName;
+        Glyph = glyph;
     }
 }
 
 public static class TextTransformer
 {
-    [TransformationDisplayName("Sentence case")]
+    private static string[] SplitWords(string input)
+    {
+        if (string.IsNullOrWhiteSpace(input)) return [string.Empty];
+
+        return input.Split(new char[] { ' ', '-', '_' }, StringSplitOptions.RemoveEmptyEntries);
+    }
+
+    [TransformationDisplayName("Sentence case", "\uE8E9")]
     public static string ToSentenceCase(string text)
     {
         var sb = new StringBuilder(text.Length);
@@ -44,37 +53,19 @@ public static class TextTransformer
         return sb.ToString();
     }
 
-    [TransformationDisplayName("lowercase")]
+    [TransformationDisplayName("lowercase", "\uE84A")]
     public static string ToLowercase(string input)
     {
         return input.ToLowerInvariant();
     }
 
-    [TransformationDisplayName("UPPERCASE")]
+    [TransformationDisplayName("UPPERCASE", "\uE84B")]
     public static string ToUppercase(string input)
     {
         return input.ToUpperInvariant();
     }
 
-    [TransformationDisplayName("AlTeRnAte Case")]
-    public static string ToAlternateCase(string input)
-    {
-        char[] chars = input.ToCharArray();
-        for (int i = 0; i < chars.Length; i++)
-        {
-            if (i % 2 == 0)
-            {
-                chars[i] = char.ToLowerInvariant(chars[i]);
-            }
-            else
-            {
-                chars[i] = char.ToUpperInvariant(chars[i]);
-            }
-        }
-        return new string(chars);
-    }
-
-    [TransformationDisplayName("iNVERSE cASE")]
+    [TransformationDisplayName("iNVERSE cASE", "\uE8E7")]
     public static string ToInverseCase(string input)
     {
         char[] chars = input.ToCharArray();
@@ -92,14 +83,25 @@ public static class TextTransformer
         return new string(chars);
     }
 
-    private static string[] SplitWords(string input)
+    [TransformationDisplayName("AlTeRnAte Case", "\uE8E8")]
+    public static string ToAlternateCase(string input)
     {
-        if (string.IsNullOrWhiteSpace(input)) return Array.Empty<string>();
-
-        return input.Split(new char[] { ' ', '-', '_' }, StringSplitOptions.RemoveEmptyEntries);
+        char[] chars = input.ToCharArray();
+        for (int i = 0; i < chars.Length; i++)
+        {
+            if (i % 2 == 0)
+            {
+                chars[i] = char.ToLowerInvariant(chars[i]);
+            }
+            else
+            {
+                chars[i] = char.ToUpperInvariant(chars[i]);
+            }
+        }
+        return new string(chars);
     }
 
-    [TransformationDisplayName("Title Case")]
+    [TransformationDisplayName("Title Case", "\uE8D2")]
     public static string ToTitleCase(string input)
     {
         TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
@@ -107,10 +109,11 @@ public static class TextTransformer
         return result;
     }
 
-    [TransformationDisplayName("camelCase")]
+    [TransformationDisplayName("camelCase", "\uE8AC")]
     public static string ToCamelCase(string input)
     {
         var words = SplitWords(input);
+
         StringBuilder sb = new StringBuilder(words[0].ToLowerInvariant());
         
         for (int i = 1; i < words.Length; i++)
@@ -120,10 +123,11 @@ public static class TextTransformer
                 sb.Append(char.ToUpperInvariant(words[i][0]) + words[i].Substring(1).ToLowerInvariant());
             }
         }
+
         return sb.ToString();
     }
 
-    [TransformationDisplayName("PascalCase")]
+    [TransformationDisplayName("PascalCase", "\uF093")]
     public static string ToPascalCase(string input)
     {
         var words = SplitWords(input);
@@ -139,31 +143,31 @@ public static class TextTransformer
         return sb.ToString();
     }
 
-    [TransformationDisplayName("snake_case")]
+    [TransformationDisplayName("snake_case", "\uE8DC")] 
     public static string ToSnakeCase(string input)
     {
         return string.Join("_", SplitWords(input).Select(w => w.ToLowerInvariant()));
     }
 
-    [TransformationDisplayName("CONSTANT_CASE")]
+    [TransformationDisplayName("CONSTANT_CASE", "\uE97F")]
     public static string ToConstantCase(string input)
     {
         return string.Join("_", SplitWords(input).Select(w => w.ToUpperInvariant()));
     }
 
-    [TransformationDisplayName("kebab-case")]
+    [TransformationDisplayName("kebab-case", "\uE94D")]
     public static string ToKebabCase(string input)
     {
         return string.Join("-", SplitWords(input).Select(w => w.ToLowerInvariant()));
     }
 
-    [TransformationDisplayName("COBOL-CASE")]
+    [TransformationDisplayName("COBOL-CASE", "\uE8D3")]
     public static string ToCobolCase(string input)
     {
         return string.Join("-", SplitWords(input).Select(w => w.ToUpperInvariant()));
     }
 
-    [TransformationDisplayName("Train-Case")]
+    [TransformationDisplayName("Train-Case", "\uEDE0")]
     public static string ToTrainCase(string input)
     {
         var words = SplitWords(input);
@@ -178,5 +182,48 @@ public static class TextTransformer
             }
         }
         return sb.ToString();
+    }
+
+    [TransformationDisplayName("dot.case", "\uE843")]
+    public static string ToDotCase(string input)
+    {
+        return string.Join(".", SplitWords(input).Select(w => w.ToLowerInvariant()));
+    }
+
+    [TransformationDisplayName("path/case", "\uE8B7")]
+    public static string ToPathCase(string input)
+    {
+        return string.Join("/", SplitWords(input).Select(w => w.ToLowerInvariant()));
+    }
+
+    [TransformationDisplayName(@"path\case\backslash", "\uED41")]
+    public static string ToPathBackslashCase(string input)
+    {
+        return string.Join("\\", SplitWords(input).Select(w => w.ToLowerInvariant()));
+    }
+
+    [TransformationDisplayName("Rèmòvè àccènts", "\uF2B7")]
+    public static string RemoveDiacritics(string input)
+    {
+        var normalized = input.Normalize(NormalizationForm.FormD);
+        var sb = new StringBuilder();
+        foreach (var c in normalized)
+        {
+            if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+                sb.Append(c);
+        }
+        return sb.ToString().Normalize(NormalizationForm.FormC);
+    }
+
+    [TransformationDisplayName("Remove? special! characters&", "\uED60")]
+    public static string RemoveSpecialCharacters(string input)
+    {
+        return new string(input.Where(c => char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)).ToArray());
+    }
+
+    [TransformationDisplayName("Remove multiple   spaces \nnewlines and\ttabs", "\uEF17")]
+    public static string RemoveDuplicateWhitespace(string input)
+    {
+        return string.Join(" ", input.Split(new[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries));
     }
 }
