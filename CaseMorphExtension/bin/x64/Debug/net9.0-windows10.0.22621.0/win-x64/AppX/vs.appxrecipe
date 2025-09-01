@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\bin\x64\Debug\net9.0-windows10.0.22621.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-28T05:21:35.485</Modified>
+      <Modified>2025-09-01T10:54:00.611</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\apphost.exe">
       <PackagePath>CaseMorphExtension.exe</PackagePath>
-      <Modified>2025-08-28T05:21:23.341</Modified>
+      <Modified>2025-09-01T10:53:43.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\.nuget\packages\microsoft.netcore.app.runtime.win-x64\9.0.8\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
       <PackagePath>Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
@@ -340,123 +340,123 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\linked\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2025-08-28T05:21:30.151</Modified>
+      <Modified>2025-09-01T10:53:53.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\linked\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2025-08-28T05:21:30.162</Modified>
+      <Modified>2025-09-01T10:53:53.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\WindowsInput.dll">
       <PackagePath>WindowsInput.dll</PackagePath>
-      <Modified>2025-08-28T05:21:31.742</Modified>
+      <Modified>2025-09-01T10:53:56.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Microsoft.CommandPalette.Extensions.Toolkit.dll">
       <PackagePath>Microsoft.CommandPalette.Extensions.Toolkit.dll</PackagePath>
-      <Modified>2025-08-28T05:21:31.860</Modified>
+      <Modified>2025-09-01T10:53:56.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Shmuelie.WinRTServer.dll">
       <PackagePath>Shmuelie.WinRTServer.dll</PackagePath>
-      <Modified>2025-08-28T05:21:31.934</Modified>
+      <Modified>2025-09-01T10:53:56.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\CaseMorphExtension.dll">
       <PackagePath>CaseMorphExtension.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.008</Modified>
+      <Modified>2025-09-01T10:53:56.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.078</Modified>
+      <Modified>2025-09-01T10:53:56.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.144</Modified>
+      <Modified>2025-09-01T10:53:56.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.216</Modified>
+      <Modified>2025-09-01T10:53:56.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ComponentModel.Primitives.dll">
       <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.285</Modified>
+      <Modified>2025-09-01T10:53:56.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ComponentModel.TypeConverter.dll">
       <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.352</Modified>
+      <Modified>2025-09-01T10:53:56.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Console.dll">
       <PackagePath>System.Console.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.418</Modified>
+      <Modified>2025-09-01T10:53:56.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.522</Modified>
+      <Modified>2025-09-01T10:53:57.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.583</Modified>
+      <Modified>2025-09-01T10:53:57.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.653</Modified>
+      <Modified>2025-09-01T10:53:57.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.IO.MemoryMappedFiles.dll">
       <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.719</Modified>
+      <Modified>2025-09-01T10:53:57.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.791</Modified>
+      <Modified>2025-09-01T10:53:57.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.853</Modified>
+      <Modified>2025-09-01T10:53:57.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.929</Modified>
+      <Modified>2025-09-01T10:53:57.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Memory.dll">
       <PackagePath>System.Memory.dll</PackagePath>
-      <Modified>2025-08-28T05:21:32.996</Modified>
+      <Modified>2025-09-01T10:53:57.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2025-08-28T05:21:33.059</Modified>
+      <Modified>2025-09-01T10:53:57.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Private.CoreLib.dll">
       <PackagePath>System.Private.CoreLib.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.089</Modified>
+      <Modified>2025-09-01T10:53:59.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.183</Modified>
+      <Modified>2025-09-01T10:53:59.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.286</Modified>
+      <Modified>2025-09-01T10:53:59.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.367</Modified>
+      <Modified>2025-09-01T10:53:59.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Security.Cryptography.dll">
       <PackagePath>System.Security.Cryptography.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.438</Modified>
+      <Modified>2025-09-01T10:53:59.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Text.Encodings.Web.dll">
       <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.511</Modified>
+      <Modified>2025-09-01T10:53:59.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\System.Text.Json.dll">
       <PackagePath>System.Text.Json.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.703</Modified>
+      <Modified>2025-09-01T10:53:59.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
-      <Modified>2025-08-28T05:21:34.871</Modified>
+      <Modified>2025-09-01T10:54:00.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\R2R\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
-      <Modified>2025-08-28T05:21:35.155</Modified>
+      <Modified>2025-09-01T10:54:00.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rokke\Source\Repos\cmdpal-casemorph-extension\CaseMorphExtension\obj\x64\Debug\net9.0-windows10.0.22621.0\win-x64\CaseMorphExtension.deps.json">
       <PackagePath>CaseMorphExtension.deps.json</PackagePath>

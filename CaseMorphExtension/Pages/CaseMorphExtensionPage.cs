@@ -50,14 +50,21 @@ internal sealed partial class CaseMorphExtensionPage : DynamicListPage
 
                 MoreCommands = [
                     new CommandContextItem(secondary),
-                    new CommandContextItem(new AnonymousCommand(() => {
-                        _settingsManager._toggles[attr.DisplayName].Value = false;
-                        _settingsManager.SyncOrderSettingWithEnabledToggles();
-                        _settingsManager.SaveSettings();
-                    }){
-                        Name = $"Disable {attr.DisplayName}",
+                    new CommandContextItem(
+                        title: $"Disable {attr.DisplayName}",
+                        name: $"Disable {attr.DisplayName}",
+                        action: () => {
+                            _settingsManager._toggles[attr.DisplayName].Value = false;
+                            _settingsManager.SyncOrderSettingWithEnabledToggles();
+                            _settingsManager.SaveSettings();
+                            RaiseItemsChanged(1);
+                        },
+                        result: CommandResult.KeepOpen())
+                    {
                         Icon = new IconInfo("\uE711"),
-                    }),
+                        IsCritical = true,
+                    },
+
                     new CommandContextItem(_settingsManager.Settings.SettingsPage)
                 ],
             });
